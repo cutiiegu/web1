@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<htnl lang = "ru">
+    <body>
+        <form action="/" method="POST">
+            <h1>Форма</h1>
+            <label for = "field-text"><strong>ФИО</strong><br>
+                <input name = "field-text" type = "text" placeholder = "Введите ФИО">
+            </label><br>
+            <label for = "field-tel"><strong>Номер телефона</strong><br>
+                <input name = "field-tel" type = "tel" placeholder = "Введите номер телефона">
+            </label><br>
+            <label for = "field-email"><strong>e-mail</strong><br>
+                <input name = "field-email" type = "email" placeholder = "Введите e-mail">
+            </label><br>
+            <label for = "field-date"><strong>Дата рождения</strong><br>
+                <input name = "field-date" type = "date">
+            </label><br>
+            <label><strong>Пол</strong><br>
+                <input name = "radio-group-1" type = "radio" checked="checked">Мужской</label>
+            <label>
+                <input name = "radio-group-1" type = "radio">Женский</label><br>
+            <label>
+                <strong> Любимый язык программирования</strong><br>
+                <select name="field-name-1" multiple="multiple">
+                    <option value="Значение1">Pascal</option>
+                    <option value="Значение2">C</option>
+                    <option value="Значение3">C++</option>
+                    <option value="Значение4">JavaScript</option>
+                    <option value="Значение5">PHP</option>
+                    <option value="Значение6">Python</option>
+                    <option value="Значение7">Java</option>
+                    <option value="Значение8">Haskel</option>
+                    <option value="Значение9">Clojure</option>
+                    <option value="Значение10">Prolog</option>
+                    <option value="Значение11">Scala</option>
+                </select>
+            </label><br>
+            <label for = "field-text"><strong>Биография</strong><br>
+                <input name = "about" type = "text" placeholder="Расскажите о себе">
+            </label><br>
+            <label>
+                <input name = "checkbox" type = "checkbox" checked = "checked"><strong>C контрактом ознакомлен(а)</strong><br>
+            </label>
+            <input type="submit" value="Сохранить"/>
+        </form>
+    </body>
+</htnl>
